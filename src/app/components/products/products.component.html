@@ -1,0 +1,20 @@
+<div class="container text-center mt-5">
+    <h1> let's Shop Now</h1>
+    <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro esse rerum cumque molestias asperiores </p>
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor=" let item of productList">
+            <div class="col-md-3">
+                <div class="card">
+                    <img [src]='item.image'>
+                    <h6>{{item.title}}</h6>
+                    <p>{{item.price}} $</p>
+                    <button class="btn cardBtn" (click)="addItemsToCart(item)">Add To Cart</button>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

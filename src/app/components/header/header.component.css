@@ -1,0 +1,16 @@
+nav {
+    background-color: rgb(226, 49, 144) !important;
+}
+
+nav a {
+    color: #fff !important;
+}
+
+.badge {
+    background-color: #fff !important;
+    color: rgb(226, 49, 144) !important;
+}
+
+.cartBtn {
+    margin-left: 30px;
+}

@@ -1,0 +1,32 @@
+.card {
+    height: 18rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 0.8rem;
+}
+
+.cardBtn {
+    border: 1px solid rgb(226, 49, 144) !important;
+}
+
+.cardBtn:hover {
+    background-color: rgb(226, 49, 144) !important;
+    color: #fff;
+}
+
+.card img {
+    padding-top: 1rem;
+    height: 100px;
+    width: 100px;
+}
+
+.card h6 {
+    font-size: 1rem;
+    margin-top: 0.7rem;
+}
+
+.card button {
+    margin-bottom: 2rem;
+}
