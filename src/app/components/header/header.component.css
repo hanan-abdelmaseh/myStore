@@ -6,6 +6,10 @@ nav a {
     color: #fff !important;
 }
 
+nav a:hover {
+    color: #000 !important;
+}
+
 .badge {
     background-color: #fff !important;
     color: rgb(226, 49, 144) !important;
